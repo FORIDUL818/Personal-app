@@ -1,0 +1,29 @@
+.navbar-container {
+    flex: 1;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .hamburger-menu {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .hamburger-menu {
+      display: block;
+    }
+  
+    .menu {
+      display: none;
+    }
+  }
+  
